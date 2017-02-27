@@ -11,7 +11,6 @@ noisy1 = image + 3 * image.std() * np.random.random(image.shape)
 alot  = 2 * image.max() * np.random.random(image.shape)
 noisy2 = image + alot
 
-
 # 2. Plot the noisy image
 import matplotlib.pyplot as plt
 f, axarr = plt.subplots(2, 2)
